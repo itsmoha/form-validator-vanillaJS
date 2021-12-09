@@ -55,7 +55,7 @@ const checkPasswords = (password, confirmPassword) => {
   }
 };
 
-// Evenet listeners
+// Event listeners
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   checkEmail(email);
